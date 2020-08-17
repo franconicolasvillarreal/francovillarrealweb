@@ -1,0 +1,145 @@
+* {
+    font-family: Roboto;
+    font-weight: 300;
+    list-style: none;
+}
+body {
+    width: 70%;
+    margin: 0px auto;
+    background: #e6e6e6;
+}
+header {
+    width: 70%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    width: 100%;
+    background:black;
+    height: 50px;
+}
+nav img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+nav img:hover {
+    cursor: pointer;
+}
+nav ul {
+    display: block;
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+nav ul li a:hover {
+    cursor: pointer;
+    border-bottom: 3px solid white;
+}
+h1 {
+    font-size: 3em;
+    font-weight: 500;
+}
+h2 {
+    color: #0B4C5F;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+h3 {
+    color: #424242;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+h4 {
+    color: #424242;
+    font-size: 1em;
+    font-weight: 400;
+}
+#first h2 {
+    margin-top: -30px;
+    color: #0B4C5F;
+}
+.container {
+    width: 100%;
+    background: white;
+}
+section {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#first {
+    background: url(../img/code.jpg);
+    height: 200px;
+    padding-top: 100px;
+}
+#about {
+    background: white;
+}
+#academic {
+    background: #D8D8D8;
+}
+#experience {
+    background: white;
+}
+#projects {
+    background: #D8D8D8;
+}
+#contact {
+    background: white;
+}
+.slider div img{
+   margin: 0px auto;
+}
+p {
+    text-align: justify;
+}
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media only screen and (max-width: 1300px) {
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    nav {
+        height: 170px;
+        text-align: right;
+    }
+    nav img {
+
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    #first {
+        padding-top: 340px;
+    }
+    section {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 170px;
+        padding-bottom: 50px;
+    }
+}
