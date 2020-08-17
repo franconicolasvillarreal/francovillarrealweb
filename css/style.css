@@ -101,6 +101,24 @@ section {
 #contact {
     background: white;
 }
+#contact ul {
+    padding: 0px;
+}
+#contact li {
+    display: inline-block;
+}
+#contact a {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size:1.2em;
+    color: black;
+}
+#contact a:hover {
+    background:black;
+    color: white;
+}
 .slider div img{
    margin: 0px auto;
 }
