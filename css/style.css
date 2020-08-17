@@ -101,13 +101,13 @@ section {
 #contact {
     background: white;
 }
-#contact ul {
+.contact-list {
     padding: 0px;
 }
-#contact li {
+.contact-list li {
     display: inline-block;
 }
-#contact a {
+.contact-list li a {
     background: white;
     border-radius: 5px;
     padding: 10px;
@@ -115,7 +115,7 @@ section {
     font-size:1.2em;
     color: black;
 }
-#contact a:hover {
+.contact-list li a:hover {
     background:black;
     color: white;
 }
