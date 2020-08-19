@@ -3,6 +3,6 @@ $(function(){
       mode: 'fade',
       captions: true,
       controls: false,
-      auto: true
+      auto: true,
     });
 });
