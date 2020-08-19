@@ -137,6 +137,9 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+strong {
+    font-weight: 500;
+}
 @media only screen and (max-width: 1300px) {
     body {
         width: 100%;
