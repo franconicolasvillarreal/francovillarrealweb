@@ -1,173 +1,85 @@
 * {
-    font-family: Roboto;
-    font-weight: 300;
-    list-style: none;
+    font-family: 'Roboto';
 }
 body {
-    width: 70%;
-    margin: 0px auto;
-    background: #e6e6e6;
-}
-header {
-    margin-top: -50px;
-    width: 70%;
-    position: fixed;
-    z-index: 1;
-}
-nav {
-    width: 100%;
-    background:black;
-    height: 50px;
-}
-nav img {
-    width: 50px;
-    height: 50px;
-    display: block;
-    float: left;
-    margin-left: 50px;
-}
-nav img:hover {
-    cursor: pointer;
-}
-nav ul {
-    display: block;
-    float: right;
-}
-.clearfix {
-    clear: both;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 50px;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
-nav ul li a:hover {
-    cursor: pointer;
-    border-bottom: 3px solid white;
-}
-h1 {
-    font-size: 3em;
-    font-weight: 500;
-}
-h2 {
-    color: #0B4C5F;
-    font-size: 1.5em;
-    font-weight: 500;
-}
-h3 {
-    color: #424242;
-    font-size: 1.2em;
-    font-weight: 400;
-}
-h4 {
-    color: #424242;
-    font-size: 1em;
-    font-weight: 400;
-}
-#first h2 {
-    margin-top: -30px;
-    color: #0B4C5F;
+    background: black;
 }
 .container {
-    width: 100%;
-    background: white;
+    background: #f2f2f2;
 }
-section {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-#first {
-    margin-top: 50px;
-    background: url(../img/code.jpg);
-    height: 200px;
-    padding-top: 100px;
-}
-#about {
-    background: white;
-}
-#academic {
-    background: #D8D8D8;
-}
-#experience {
-    background: white;
-}
-#projects {
-    background: #D8D8D8;
-}
-#contact {
-    background: white;
-}
-.contact-list {
+.container .row .col-12{
     padding: 0px;
 }
-.contact-list li {
-    display: inline-block;
+#first {
+    height: 300px;
 }
-.contact-list li a {
-    background: white;
-    border-radius: 5px;
+
+#first section {
+    background: url("../img/code.jpg");
+}
+
+.card {
+    margin: 5px;
+}
+.navbar a{
+    transition: 200ms ease-in;
+}
+.navbar a:hover {
+    margin-top: -7px;
+    font-size: 18px;
+    border-bottom: 5px solid #ccc;
+}
+
+h1 {
+    color: #0B2F3A;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: 'Roboto Mono'; 
+    margin-left: 20px;
+}
+#first-text h2 {
+    margin-left: 20px;
+    font-family: 'Roboto Mono';
+}
+h2 {
+    color: #0B2F3A;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+h3 {
+    color:  #0B2F3A;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+h4 {
+    color: #0B2F3A;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.row {
+    margin-bottom: 0px;
+}
+.alert {
+    border-radius: 0px;
+}
+#contact ul{
+    margin: 0px;
+    padding: 0px; 
+}
+#contact li {
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+    list-style: none;
+}
+#contact a {
     padding: 10px;
-    text-decoration: none;
-    font-size:1.2em;
-    color: black;
 }
-.contact-list li a:hover {
-    background:black;
-    color: white;
+#contact {
+    padding-bottom: 40px;
 }
-.slider {
-    z-index: 1;
-}
-.slider div img{
-   margin: 0px auto;
-}
-p {
-    text-align: justify;
-}
-footer {
-    background: black;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-strong {
-    font-weight: 500;
-}
-@media only screen and (max-width: 1300px) {
-    body {
-        width: 100%;
-    }
-    header {
-        width: 100%;
-    }
-    nav {
-        height: 170px;
-        text-align: right;
-    }
-    nav img {
-        width: 170px;
-        height: 170px;
-        margin-left: 0px;
-    }
-    nav ul li{
-        display: block;
-        margin-right: 50px;
-        margin-bottom: 10px;
-    }
-    #first {
-        padding-top: 220px;
-    }
-    section {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 170px;
-        padding-bottom: 50px;
-    }
+
+.contenedor {
+	margin: auto;
+    display: table;
 }

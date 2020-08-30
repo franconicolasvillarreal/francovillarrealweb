@@ -4,97 +4,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
     <script src="js/main.js"></script>
     <title>Portfolio FV</title>
 </head>
 <body>
-    <header>
-        <nav id="nav-menu">
-            <a href="#first"><img src="img/Logo FV.png" alt="Franco Villarreal Logo"></a>
-            <ul>
-                <li><a href="#about">Acerca de</a></li>
-                <li><a href="#academic">Académica</a></li>
-                <li><a href="#experience">Experiencia laboral</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-            <div class="clearfix"></div>
-        </nav>
-    </header>
     <div class="container">
-        <section id="first">
-            <h1>FRANCO VILLARREAL</h1>
-            <h2>ANALISTA PROGRAMADOR</h2>
-        </section>
-        <section id="about">
-            <h2>Acerca de</h2>
-            <p>¡Bienvenido/a a mi sitio web! Me llamo Franco y me encuentro dando mis primeros pasos en el mundo del desarrollo de software. Creé este espacio con el fin de poder compartir mi perfil y los proyectos en los que estuve trabajando por cuenta propia. </p>
-            <p>Actualmente, estoy focalizándome en <strong>JavaScript</strong> y las herramientas que lo rodean (<strong>Angular</strong>, <strong>jQuery</strong>, <strong>JSON</strong>, <strong>Node.JS</strong>, <strong>TypeScript</strong>). En complemento, cuento también con conocimientos de maquetación web (<strong>HTML5</strong>, <strong>CSS3</strong>). Por otra parte, sé programar en <strong>Java</strong>, tuve contacto con <strong>C#</strong> utilizando <strong>ASP.NET MVC</strong>, y manejo <strong>GitHub</strong>. En cuanto a bases de datos, tengo cierta experiencia utilizando <strong>SQL Server</strong> y estoy aprendiendo de <strong>MongoDB</strong>.</p>
-            <p>Te invito a recorrer mi perfil y probar alguno de proyectos si te ha parecido interesante.</p>
-            <p>¡Muchas gracias!</p>
-        </section>
-        <section id="academic">
-            <h2>Académica</h2>
-            <h3>ANALISTA DE SISTEMAS (EN CURSO)</h3>
-            <p>Terciario - Instituto de Tecnología ORT (Almagro)</p>
-            <hr>
-            <h3>TÉCNICO EN ELECTRÓNICA (2010)</h3>
-            <p>Secundario - Escuela Técnica Nro. 8 (Morón)</p>
-        </section>
-        <section id="experience">
-            <h2>Experiencia laboral</h2>
-            <h3>ANALISTA TÉCNICO</h3>
-            <h4>ATOS ARGENTINA S.A. (FEBRERO 2020 – ACTUALIDAD)</h4>
-            <p>Industrializador de aplicaciones en ambientes <strong>UNIX</strong>/<strong>LINUX</strong>/<strong>WINDOWS</strong> para el cliente PSA Groupe. Análisis y gestión de tickets de cambios e incidentes sobre servidores de producción de diversas aplicaciones de América Latina y Europa. Realización de purgas, backups, ejecución de scripts, revisión de logs, modificaciones en el plan batch, consultas y alteraciones en bases de datos <strong>SQL Server</strong> y <strong>Oracle</strong>, entre otras acciones de mantenimiento.</p>
-            <hr>
-            <h3>ANALISTA PROGRAMADOR</h3>
-            <h4>PROPULSORA DE SERVICIOS S.A. (SEPTIEMBRE 2018 – OCTUBRE 2019)</h4>
-            <p>Diseño y programación de sistemas de monitoreo y control para la industria. Programación de PLC en lenguaje LADDER y estructurado (Proficy Machine Edition). Scripting en <strong>VBA</strong> de General Electric Aplications (CIMPLICITY) para sistemas SCADA. Diseño de interfaces de usuario. Creación de bases de datos <strong>SQL Server</strong>.</p>
-            <hr>
-            <h3>ANALISTA ADMINISTRATIVO</h3>
-            <h4>LGL COMUNICACIONES S.A. (DICIEMBRE 2013 – JUNIO 2018)</h4>
-            <p>Responsable de la gestión de la mercadería en el depósito central de la empresa. Generación de informes de stock, ventas, etc. Auditorías internas. Manejo de <strong>ERP</strong> para operaciones internas y sistemas de Telecom Personal. Uso de <strong>Microsoft Excel</strong> avanzado.</p>
-        </section>
-        <section id="projects">
-            <h2>Proyectos</h2>
-            <p>En esta sección listaré algunos proyectos propios en los que estuve trabajando.</p>
-            <h3>Proyecto 1</h3>        
-            <div class="slider">
-                <div><img src="img/proyecto1-1.png" alt=""></div>
-                <div><img src="img/proyecto1-2.png" alt=""></div>
-            </div>        
-            <p>La idea de esta pequeña aplicación web, es servir de estación de ensayo para aquellas personas que estén iniciando o tengan cierto conocimiento en guitarra o bajo. El usuario puede elegir en qué tonalidad trabajar, y la aplicación mostrará dinámicamente los grados correspondientes a dicha tonalidad, las tríadas, y simulará el mástil del instrumento seleccionado. A su vez, el usuario podrá tocar las notas en el mástil y el programa reproducirá el sonido de dicha nota. La aplicación cuenta también con un metrónomo y un temporizador, para controlar el tiempo que se desea practicar.</p>
-            <p>El proyecto no está terminado aún. Tengo varias funcionalidades que quiero agregar, y algunas cosas que me gustaría mejorar. De todos modos, se puede utilizar clickeando <a href="https://franconicolasvillarreal.github.io/project1/" target="_blank">aquí</a> y es posible descargarse el <a href="https://github.com/franconicolasvillarreal/project1">repositorio</a> desde GitHub para ser utilizada.</p>
-            <h3>Proyecto 2</h3>
-            <div class="slider">
-                <div><img src="img/proyecto2-1.png" alt=""></div>
-                <div><img src="img/proyecto2-2.png" alt=""></div>
+        <!----------------------------------------------------->
+        <!--NAVBAR--------------------------------------------->
+        <!----------------------------------------------------->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#"><img class="img-fluid" id="img-logo" src="img/Logo FV.png" alt="Franco Villarreal Logo" width="60"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#academic">Académica</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#experience">Experiencia laboral</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                        </ul>
+                      <span class="navbar-text">
+                       
+                      </span>
+                    </div>
+                  </nav> 
             </div>
-            <p>En este caso, quise crear un videojuego web de gestión de recursos. En él, el jugador deberá administrar su dinero para cumplir los pagos que periódicamente se le irán ejecutando, cada vez con más intereses. Para ello, deberá hacer buen uso de los recursos del terreno de juego (generado de forma aleatoria en cada partida) para generar activos que le permitan cumplir con los pagos ya mencionados. Podrá crear aserraderos, granjas, minas, puertos, tiendas y fábricas. Cada construcción tendrá sus costos y sus beneficios.</p>
-            <p>El juego se encuentra en desarrollo. Tengo que terminar algunos puntos, y mejorar otros. De todos modos, ya es jugable y permite entretenerse buen rato. Todo el proyecto es de mi autoría, incluído los gráficos. Como el resto, podrán encontrar el <a href="https://github.com/franconicolasvillarreal/project2">repositorio</a> del proyecto en GitHub para lo que deseen. Click <a href="https://franconicolasvillarreal.github.io/project2/" target="_blank">aquí</a> si deseas probar el juego.</p>
-            <h3>Proyecto 3</h3>
-            <div class="slider">
-                <div><img src="img/proyecto3-1.png" alt=""></div>
-                <div><img src="img/proyecto3-2.png" alt=""></div>
-            </div>
-            <p>En esta ocasión, me surgió la idea de recrear el típico juego Sudoku, con el fin de probar ElectronJs y realizar una migración del juego web a una versión de escritorio. Es posible probarlo clickeando <a href="https://franconicolasvillarreal.github.io/sudoku/. " target="_blank">aquí</a>, descargar el instalable para Windows desde <a href="https://drive.google.com/file/d/11z7oHnBmvWxK6ETc_99hQWeRD843LO5z/view?usp=sharing" target="_blank">aquí</a>, o acceder al <a href="https://github.com/franconicolasvillarreal/sudoku">repositorio</a> del proyecto.</p>
-        </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <ul class="contact-list">
-                <li><a href="https://github.com/franconicolasvillarreal" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                <li><a href=mailto:franconicolasvillarreal@gmail.com><i class="fas fa-envelope"></i> Gmail</a></li>
-                <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-            </ul>
-        </section>
+        </div>
+                    
+        <!----------------------------------------------------->
+        <!--FIRST---------------------------------------------->
+        <!----------------------------------------------------->
+        <div id="first" class="row">
+            <section id="first-text"class="col-12 d-flex align-items-left">
+                <div class="contenedor col-12">
+                    <h1 id="first_h1"> &lt;franco villarreal&gt;<span>&#160;</span></h1>
+                    
+                    <h2 id="first_h2"> &lt;analista programador&gt;<span>&#160;</span></h2>
+                </div>
+               
+                
+            </section>
+        </div>
+        <!----------------------------------------------------->
+        <!--ABOUT---------------------------------------------->
+        <!----------------------------------------------------->
+        <div id="about" class="row alert alert-secondary">
+            <section class="col-12 text-justify">
+                <h2>Acerca de</h2>
+                <p>¡Bienvenido/a a mi sitio web! Me llamo Franco y me encuentro dando mis primeros pasos en el mundo del desarrollo de software. Creé este espacio con el fin de poder compartir mi perfil y los proyectos en los que estuve trabajando por cuenta propia. </p>
+                <p>Actualmente, estoy focalizándome en <strong>JavaScript</strong> y las herramientas que lo rodean (<strong>Angular</strong>, <strong>jQuery</strong>, <strong>JSON</strong>, <strong>Node.JS</strong>, <strong>TypeScript</strong>). En complemento, cuento también con conocimientos de maquetación web (<strong>HTML5</strong>, <strong>CSS3</strong>). Por otra parte, sé programar en <strong>Java</strong>, tuve contacto con <strong>C#</strong> utilizando <strong>ASP.NET MVC</strong>, y manejo <strong>GitHub</strong>. En cuanto a bases de datos, tengo cierta experiencia utilizando <strong>SQL Server</strong> y estoy aprendiendo de <strong>MongoDB</strong>.</p>
+                <p>Te invito a recorrer mi perfil y probar alguno de proyectos si te ha parecido interesante.</p>
+                <p>¡Muchas gracias!</p>
+            </section>
+        </div>  
+        <!----------------------------------------------------->
+        <!--ACADEMIC------------------------------------------->
+        <!----------------------------------------------------->
+        <div id="academic" class="row alert alert-dark">
+            <section class="col-12">
+                <h2>Académica</h2>
+                <h3>ANALISTA DE SISTEMAS (EN CURSO)</h3>
+                <p>Terciario - Instituto de Tecnología ORT (Almagro)</p>
+                <hr>
+                <h3>TÉCNICO EN ELECTRÓNICA (2010)</h3>
+                <p>Secundario - Escuela Técnica Nro. 8 (Morón)</p>
+            </section>
+        </div>    
+        <!----------------------------------------------------->
+        <!--EXPERIENCE----------------------------------------->
+        <!----------------------------------------------------->
+        <div id="experience" class="row alert alert-secondary">
+            <section class="col-12 text-justify">
+                <h2>Experiencia laboral</h2>
+                <h3>ANALISTA TÉCNICO</h3>
+                <h4>ATOS ARGENTINA S.A. (FEBRERO 2020 – ACTUALIDAD)</h4>
+                <p>Industrializador de aplicaciones en ambientes <strong>UNIX</strong>/<strong>LINUX</strong>/<strong>WINDOWS</strong> para el cliente PSA Groupe. Análisis y gestión de tickets de cambios e incidentes sobre servidores de producción de diversas aplicaciones de América Latina y Europa. Realización de purgas, backups, ejecución de scripts, revisión de logs, modificaciones en el plan batch, consultas y alteraciones en bases de datos <strong>SQL Server</strong> y <strong>Oracle</strong>, entre otras acciones de mantenimiento.</p>
+                <hr>
+                <h3>ANALISTA PROGRAMADOR</h3>
+                <h4>PROPULSORA DE SERVICIOS S.A. (SEPTIEMBRE 2018 – OCTUBRE 2019)</h4>
+                <p>Diseño y programación de sistemas de monitoreo y control para la industria. Programación de PLC en lenguaje LADDER y estructurado (Proficy Machine Edition). Scripting en <strong>VBA</strong> de General Electric Aplications (CIMPLICITY) para sistemas SCADA. Diseño de interfaces de usuario. Creación de bases de datos <strong>SQL Server</strong>.</p>
+                <hr>
+                <h3>ANALISTA ADMINISTRATIVO</h3>
+                <h4>LGL COMUNICACIONES S.A. (DICIEMBRE 2013 – JUNIO 2018)</h4>
+                <p>Responsable de la gestión de la mercadería en el depósito central de la empresa. Generación de informes de stock, ventas, etc. Auditorías internas. Manejo de <strong>ERP</strong> para operaciones internas y sistemas de Telecom Personal. Uso de <strong>Microsoft Excel</strong> avanzado.</p>
+            </section>
+        </div>
+        <!----------------------------------------------------->
+        <!--PROJECTS------------------------------------------->
+        <!----------------------------------------------------->
+        <section id="projects" class="row alert alert-dark">
+                <div class="col-12 text-justify">
+                    <h2>Proyectos</h2>
+                    <p>En esta sección listaré algunos proyectos propios en los que estuve trabajando.</p>
+                </div>
+                
+            
+                <div class="col-12 col-md-6 col-lg-4 text-justify">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/proyecto1-1.png" alt="Card image cap">
+                        
+                        <div class="card-body">
+                        <h4 class="card-title">#1</h4>
+                        <p>Aplicación web para músicos</p>
+
+                            <div class="collapse-content">
+
+                                <p class="card-text collapse" id="collapseContent1">
+                                    La idea de esta pequeña aplicación web, es servir de estación de ensayo para aquellas personas que estén iniciando o tengan cierto conocimiento en guitarra o bajo. El usuario puede elegir en qué tonalidad trabajar, y la aplicación mostrará dinámicamente los grados correspondientes a dicha tonalidad, las tríadas, y simulará el mástil del instrumento seleccionado. A su vez, el usuario podrá tocar las notas en el mástil y el programa reproducirá el sonido de dicha nota. La aplicación cuenta también con un metrónomo y un temporizador, para controlar el tiempo que se desea practicar.
+                                    El proyecto no está terminado aún. Tengo varias funcionalidades que quiero agregar, y algunas cosas que me gustaría mejorar. De todos modos, se puede utilizar clickeando <a href="https://franconicolasvillarreal.github.io/project1/" target="_blank">aquí</a> y es posible descargarse el <a href="https://github.com/franconicolasvillarreal/project1">repositorio</a> desde GitHub para ser utilizada.
+                                </p>
+
+                                <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent1">Ver más...</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-justify">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/proyecto2-1.png" alt="Card image cap">
+                            
+                            <div class="card-body">
+                            <h4 class="card-title">#2</h4>
+                            <p>Videojuego de gestión de recursos</p>
+
+                                <div class="collapse-content">
+
+                                    <p class="card-text collapse" id="collapseContent2">
+                                        En este caso, quise crear un videojuego web de gestión de recursos. En él, el jugador deberá administrar su dinero para cumplir los pagos que periódicamente se le irán ejecutando, cada vez con más intereses. Para ello, deberá hacer buen uso de los recursos del terreno de juego (generado de forma aleatoria en cada partida) para generar activos que le permitan cumplir con los pagos ya mencionados. Podrá crear aserraderos, granjas, minas, puertos, tiendas y fábricas. Cada construcción tendrá sus costos y sus beneficios.
+                                        El juego se encuentra en desarrollo. Tengo que terminar algunos puntos, y mejorar otros. De todos modos, ya es jugable y permite entretenerse buen rato. Todo el proyecto es de mi autoría, incluído los gráficos. Como el resto, podrán encontrar el <a href="https://github.com/franconicolasvillarreal/project2">repositorio</a> del proyecto en GitHub para lo que deseen. Click <a href="https://franconicolasvillarreal.github.io/project2/" target="_blank">aquí</a> si deseas probar el juego.
+                                    </p>
+
+                                    <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">Ver más...</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-justify">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/proyecto3-1.png" alt="Card image cap">
+                            
+                            <div class="card-body">
+                            <h4 class="card-title">#3</h4>
+                            <p>Remake de Sudoku</p>
+
+                                <div class="collapse-content">
+
+                                    <p class="card-text collapse" id="collapseContent3">
+                                        En esta ocasión, me surgió la idea de recrear el típico juego Sudoku, con el fin de probar ElectronJs y realizar una migración del juego web a una versión de escritorio. Es posible probarlo clickeando <a href="https://franconicolasvillarreal.github.io/sudoku/. " target="_blank">aquí</a>, descargar el instalable para Windows desde <a href="https://drive.google.com/file/d/11z7oHnBmvWxK6ETc_99hQWeRD843LO5z/view?usp=sharing" target="_blank">aquí</a>, o acceder al <a href="https://github.com/franconicolasvillarreal/sudoku">repositorio</a> del proyecto.
+                                    </p>
+
+                                    <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">Ver más...</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+           
+        </section>   
+        <!----------------------------------------------------->
+        <!--CONTACT-------------------------------------------->
+        <!----------------------------------------------------->
+        <div id="contact" class="row alert alert-secondary">
+            <section class="col-12">
+                <h2>Contacto</h2>
+                <ul class="contact-list d-flex justify-content-center">
+                    <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="col-12 btn btn-dark"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href=mailto:franconicolasvillarreal@gmail.com class="col-12 btn btn-danger"><i class="fas fa-envelope"></i> Gmail</a></li>
+                    <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="col-12 btn btn-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                </ul>
+            </section>
+        </div> 
+        <!----------------------------------------------------->
+        <!--FOOTER-------------------------------------------->
+        <!----------------------------------------------------->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-dark bg-dark text-white justify-content-center">FRANCO NICOLÁS VILLARREAL (2020)</nav>
+            </div>  
+        </div>
+
     </div>
-    <footer>
-        FRANCO NICOLÁS VILLARREAL (2020) - Gracias GitHub :)
-    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
