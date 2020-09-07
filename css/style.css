@@ -21,6 +21,9 @@ body {
 .card {
     margin: 5px;
 }
+nav {
+    height: 100px;
+}
 .navbar a{
     transition: 200ms ease-in;
 }
@@ -82,4 +85,8 @@ h4 {
 .contenedor {
 	margin: auto;
     display: table;
+}
+
+#last_name {
+    color:  pink;
 }
