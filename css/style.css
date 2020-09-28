@@ -22,8 +22,8 @@ body {
 .card {
     margin: 5px;
 }
+
 nav {
-    position: fixed;
     min-height: 100px;
 }
 .navbar a{
@@ -37,9 +37,9 @@ nav {
 
 h1 {
     text-align: center;
-    color: #0B2F3A;
+    color: #7a1515;
     margin-bottom: 20px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Roboto Mono'; 
     margin-left: 20px;
     margin-bottom: 50px;
@@ -109,4 +109,21 @@ h4 {
 
     width: 50px;
 
+}
+
+@media only screen and (max-width: 995px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 453px) {
+    h1 {
+        font-size: 1.5rem;
+    }
 }
