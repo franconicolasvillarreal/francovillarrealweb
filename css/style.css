@@ -6,6 +6,7 @@ body {
 }
 .container {
     background: #f2f2f2;
+    width: 100vw;
 }
 .container .row .col-12{
     padding: 0px;
@@ -22,7 +23,8 @@ body {
     margin: 5px;
 }
 nav {
-    height: 100px;
+    position: fixed;
+    min-height: 100px;
 }
 .navbar a{
     transition: 200ms ease-in;
@@ -34,11 +36,13 @@ nav {
 }
 
 h1 {
+    text-align: center;
     color: #0B2F3A;
     margin-bottom: 20px;
     font-size: 3rem;
     font-family: 'Roboto Mono'; 
     margin-left: 20px;
+    margin-bottom: 50px;
 }
 #first-text h2 {
     margin-left: 20px;
@@ -89,4 +93,20 @@ h4 {
 
 #last_name {
     color:  pink;
+}
+
+#first-contact {
+    margin: 0px;
+    padding: 0px; 
+}
+#first-contact li{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 10px;
+    list-style: none;
+}
+#first-contact li a {
+
+    width: 50px;
+
 }
