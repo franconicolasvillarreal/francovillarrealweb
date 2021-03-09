@@ -1,6 +1,9 @@
 * {
     font-family: 'Roboto';
 }
+.projects img {
+    height: 250px;
+}
 body {
     background: black;
 }
