@@ -1,70 +1,19 @@
+/* ============================================================================= */
+/* GENERAL */
+/* ============================================================================= */
 * {
     font-family: 'Roboto';
-}
-.projects img {
-    height: 250px;
 }
 body {
     background: black;
 }
-.container {
-    background: #f2f2f2;
-    width: 100vw;
-}
-.container .row .col-12{
-    padding: 0px;
-}
-#first {
-    height: 300px;
-}
-
-#first section {
-    background: url("../img/code.jpg");
-}
-
-.card {
-    margin: 5px;
-}
-
-nav {
-    min-height: 100px;
-}
-.navbar a{
-    transition: 200ms ease-in;
-}
-.navbar a:hover {
-    margin-top: -7px;
-    font-size: 18px;
-    border-bottom: 5px solid #ccc;
-}
-
-h1 {
-    text-align: center;
-    color: #7a1515;
-    margin-bottom: 20px;
-    font-size: 4rem;
-    font-family: 'Roboto Mono'; 
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-#first-text h2 {
-    margin-left: 20px;
-    font-family: 'Roboto Mono';
-}
-h2 {
-    color: #0B2F3A;
-    margin-bottom: 20px;
-    font-size: 1.75rem;
-}
-h3 {
-    color:  #0B2F3A;
-    margin-bottom: 20px;
-    font-size: 1.25rem;
-}
-h4 {
-    color: #0B2F3A;
-    margin-bottom: 20px;
-    font-size: 1rem;
+.section-block {
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-color: #ffffff;
 }
 .row {
     margin-bottom: 0px;
@@ -72,32 +21,79 @@ h4 {
 .alert {
     border-radius: 0px;
 }
-#contact ul{
-    margin: 0px;
-    padding: 0px; 
-}
-#contact li {
-    margin: 0px;
-    padding: 0px;
-    margin-right: 10px;
-    list-style: none;
-}
-#contact a {
-    padding: 10px;
-}
-#contact {
-    padding-bottom: 40px;
-}
-
 .contenedor {
 	margin: auto;
     display: table;
 }
-
-#last_name {
-    color:  pink;
+/* ============================================================================= */
+/* HEADERS */
+/* ============================================================================= */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+    font-family: 'Roboto Mono'; 
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
-
+h2 {
+    color: #0573a7;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+h3 {
+    color: #0573a7;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+h4 {
+    color: #0573a7;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+/* ============================================================================= */
+/* NAVBAR */
+/* ============================================================================= */
+nav {
+    min-height: 100px;
+    box-shadow: 10px #ffffff;
+}
+.navbar {
+    padding-left: 30px;
+    background-color: black;
+    
+}
+.navbar a{
+    transition: 200ms ease-in;
+    color: white;
+}
+.navbar a:hover {
+    margin-top: -7px;
+    font-size: 18px;
+    border-bottom: 5px solid #ccc;
+}
+.my-container {
+    background: #ffffff;
+    width: 99%;
+}
+.my-container .row .col-12{
+    padding: 0px;
+}
+/* ============================================================================= */
+/* INTRO */
+/* ============================================================================= */
+#first {
+    height: 600px;
+}
+#first section {
+    background: url("../img/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+#first-text h2 {
+    margin-left: 20px;
+    font-family: 'Roboto Mono';
+}
 #first-contact {
     margin: 0px;
     padding: 0px; 
@@ -106,20 +102,32 @@ h4 {
     margin: 0px;
     padding: 0px;
     margin-right: 10px;
+    vertical-align: middle;
     list-style: none;
 }
 #first-contact li a {
-
-    width: 50px;
-
+    padding: 5px;
 }
-
+/* ============================================================================= */
+/* PROJECTS */
+/* ============================================================================= */
+.projects img {
+    height: 250px;
+}
+.card {
+    margin: 5px;
+}
+.my-footer {
+    background-color: black;
+}
+/* ============================================================================= */
+/* RESPONSIVE */
+/* ============================================================================= */
 @media only screen and (max-width: 995px) {
     h1 {
         font-size: 3rem;
     }
 }
-
 @media only screen and (max-width: 769px) {
     h1 {
         font-size: 2rem;
@@ -127,6 +135,6 @@ h4 {
 }
 @media only screen and (max-width: 453px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 }
