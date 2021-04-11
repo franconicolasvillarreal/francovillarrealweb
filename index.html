@@ -11,14 +11,13 @@
     <title>Portfolio FV</title>
 </head>
 <body>
-    <div class="container">
+    <div class="my-container">
         <!----------------------------------------------------->
         <!--NAVBAR--------------------------------------------->
         <!----------------------------------------------------->
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                   
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-top">
                         <a class="navbar-brand" href="#"><img class="img-fluid" id="img-logo" src="img/Logo FV.png" alt="Franco Villarreal Logo" width="60"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -26,20 +25,14 @@
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#academic">Académica</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#experience">Experiencia laboral</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-                                <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li> -->
                             </ul>
-                        <span class="navbar-text">
-                        
-                        </span>
+                            <span class="navbar-text">
+                            </span>
                         </div>
-                   
                   </nav> 
             </div>
-        </div>
-                    
+        </div>           
         <!----------------------------------------------------->
         <!--FIRST---------------------------------------------->
         <!----------------------------------------------------->
@@ -48,68 +41,27 @@
                 <div class="contenedor col-12">
                     <h1 id="first_h1">{ franco villarreal }<span>&#160;</span></h1>
                     
-                    <!-- <h2 id="first_h2"> <code>{ analista programador }</code><span>&#160;</span></h2> -->
-                    <ul class="contact-list d-flex justify-content-center" id="first-contact">
-                        <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="col-12 btn btn-dark"><i class="fab fa-github"></i></a></li>
-                        <li><a href=mailto:franconicolasvillarreal@gmail.com class="col-12 btn btn-danger"><i class="fas fa-envelope"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="col-12 btn btn-primary"><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
                 </div>
             </section>
         </div>
         <!----------------------------------------------------->
         <!--ABOUT---------------------------------------------->
         <!----------------------------------------------------->
-        <div id="about" class="row alert alert-secondary">
-            <section class="col-12 text-justify">
+        <div id="about" class="row alert alert-secondary section-block">
+            <section class="col-12 text-center">
                 <h2>Acerca de</h2>
                 <p>¡Bienvenido/a a mi sitio web! Me llamo Franco y me encuentro dando mis primeros pasos en el mundo del desarrollo de software. Creé este espacio con el fin de poder compartir mi perfil y los proyectos en los que estuve trabajando por cuenta propia. </p>
                 <p>Actualmente, estoy focalizándome en <strong>JavaScript</strong> y las tecnologías que lo rodean, especialmente <strong>NodeJS</strong> y <strong>VueJS</strong>. Utilizo <strong>GitHub</strong> para el versionado de código, y tengo experiencia con bases de datos <strong>SQL Server</strong>, <strong>MySQL</strong>, y <strong>MongoDB</strong>. En mi página web de GitHub es posible ver algunos de mis proyectos en los que hice uso de JavaScript, NodeJS, VueJS y MySQL.</p>
                 <p>Te invito a recorrer mi perfil y probar alguno de mis proyectos.</p>
                 <p>¡Muchas gracias!</p>
-            </section>
-        </div>  
-        <!----------------------------------------------------->
-        <!--ACADEMIC------------------------------------------->
-        <!----------------------------------------------------->
-        <div id="academic" class="row alert alert-dark">
-            <section class="col-12">
-                <h2>Académica</h2>
-                <h3>ANALISTA DE SISTEMAS (EN CURSO)</h3>
-                <p>Terciario - Instituto de Tecnología ORT (Almagro)</p>
-                <hr>
-                <h3>BACHILLER EN ELECTRÓNICA (2010)</h3>
-                <p>Secundario - Escuela Técnica Nro. 8 (Morón)</p>
-            </section>
-        </div>    
-        <!----------------------------------------------------->
-        <!--EXPERIENCE----------------------------------------->
-        <!----------------------------------------------------->
-        <div id="experience" class="row alert alert-secondary">
-            <section class="col-12 text-justify">
-                <h2>Experiencia laboral</h2>
-                <h3>ANALISTA DE SOPORTE OPERATIVO</h3>
-                <h4>ECOSISTEMAS (OCTUBRE 2020 – ACTUALIDAD)</h4>
-                <p>Analista de soporte operativo para el cliente Banco del Sol. Análisis y resolución de incidencias técnicas (nivel 2) relacionadas a la operatividad de los clientes (Backoffice, Kibana, Jira, Mandrill). Análisis funcional para el desarrollo interno de la herramienta Backoffice. Desarrollo de scripts para soluciones masivas (NodeJS). Consultas y alteraciones en bases de datos MySQL.</p>
-                <hr>
-                <h3>ANALISTA DE SOPORTE DE APLICACIONES</h3>
-                <h4>ATOS ARGENTINA S.A. (FEBRERO 2020 – ACTUALIDAD)</h4>
-                <p>Industrializador de aplicaciones en ambientes <strong>UNIX</strong>/<strong>LINUX</strong>/<strong>WINDOWS</strong> para el cliente PSA Groupe. Análisis y gestión de tickets de cambios e incidentes sobre servidores de producción de diversas aplicaciones de América Latina y Europa. Realización de purgas, backups, ejecución de scripts, revisión de logs, modificaciones en el plan batch, consultas y alteraciones en bases de datos <strong>SQL Server</strong> y <strong>Oracle</strong>, entre otras acciones de mantenimiento.</p>
-                <hr>
-                <h3>ANALISTA PROGRAMADOR</h3>
-                <h4>PROPULSORA DE SERVICIOS S.A. (SEPTIEMBRE 2018 – OCTUBRE 2019)</h4>
-                <p>Diseño y programación de sistemas de monitoreo y control para la industria. Programación de PLC en lenguaje LADDER y estructurado (Proficy Machine Edition). Scripting en <strong>VBA</strong> de General Electric Aplications (CIMPLICITY) para sistemas SCADA. Diseño de interfaces de usuario. Creación de bases de datos <strong>SQL Server</strong>.</p>
-                <hr>
-                <h3>ANALISTA ADMINISTRATIVO</h3>
-                <h4>LGL COMUNICACIONES S.A. (DICIEMBRE 2013 – JUNIO 2018)</h4>
-                <p>Responsable de la gestión de la mercadería en el depósito central de la empresa. Generación de informes de stock, ventas, etc. Auditorías internas. Manejo de <strong>ERP</strong> para operaciones internas y sistemas de Telecom Personal. Uso de <strong>Microsoft Excel</strong> avanzado.</p>
+                
             </section>
         </div>
         <!----------------------------------------------------->
         <!--PROJECTS------------------------------------------->
         <!----------------------------------------------------->
-        <section id="projects" class="row alert alert-dark projects">
-                <div class="col-12 text-justify">
+        <section id="projects" class="row alert alert-dark projects section-block">
+                <div class="col-12 text-center">
                     <h2>Proyectos</h2>
                     <p>En esta sección listaré algunos proyectos propios en los que estuve trabajando.</p>
                 </div>
@@ -134,23 +86,17 @@
                         </div>
                     </div>
                 </div>
-            
                 <div class="col-12 col-md-6 col-lg-6 text-justify">
                     <div class="card">
                         <img class="card-img-top" src="img/proyecto1.png" alt="Imagen del proyecto 2">
-                        
                         <div class="card-body">
                         <h4 class="card-title">#2</h4>
                         <p>Aplicación web para músicos</p>
-
                             <div class="collapse-content">
-
                                 <p class="card-text collapse" id="collapseContent1">
                                     Creé esta aplicación para decirle adiós a mis planillas de Excel y gestionar mis finanzas personales de forma más práctica. Es posible agregar distintos tipos de movimientos, visualizarlos, filtrarlos y ordenarlos. A través de un sistema de cómputo de datos, es posible llevar el control del flujo del dinero a cada momento, además de poder proyectar para los meses subsiguientes. Por otra parte, utilicé una API para obtener la cotización de algunos valores y verlos en pantalla en todo momento. La aplicación posee el backend desarrollado en NodeJS y el frontend en VueJS. Para la persistencia de datos opté inicialmente por MySQL pero luego migré a archivos .JSON. De esta manera, cualquier persona podría instalar la app, ejecutarla y utilizarla en su computadora sin necesidad de configurar una base de datos. Si bien la app no está terminada, ya es utilizable. Podrá encontrar el repositorio <a href="">aquí</a>.
                                 </p>
-
                                 <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent1">Ver más...</a>
-
                             </div>
 
                         </div>
@@ -199,32 +145,21 @@
                             </div>
                         </div>
                     </div>
-           
-        </section>   
-        <!----------------------------------------------------->
-        <!--CONTACT-------------------------------------------->
-        <!----------------------------------------------------->
-        <!-- <div id="contact" class="row alert alert-secondary">
-            <section class="col-12">
-                <h2>Contacto</h2>
-                <ul class="contact-list d-flex justify-content-center">
-                    <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="col-12 btn btn-dark"><i class="fab fa-github"></i> GitHub</a></li>
-                    <li><a href=mailto:franconicolasvillarreal@gmail.com class="col-12 btn btn-danger"><i class="fas fa-envelope"></i> Gmail</a></li>
-                    <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="col-12 btn btn-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
-                </ul>
-            </section>
-        </div>  -->
-        <!----------------------------------------------------->
-        <!--FOOTER-------------------------------------------->
-        <!----------------------------------------------------->
+                </section>
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-dark bg-dark text-white justify-content-center">FRANCO NICOLÁS VILLARREAL (2020)</nav>
+                <nav class="navbar navbar-dark text-white justify-content-center my-footer">
+                    
+                    <ul class="contact-list d-flex justify-content-center" id="first-contact">
+                        <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="col-12 btn btn-dark"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href=mailto:franconicolasvillarreal@gmail.com class="col-12 btn btn-danger"><i class="fas fa-envelope"></i> Gmail</a></li>
+                        <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="col-12 btn btn-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    </ul>
+
+                </nav>
             </div>  
         </div>
-
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
