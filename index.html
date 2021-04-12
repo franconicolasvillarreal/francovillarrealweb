@@ -11,154 +11,177 @@
     <title>Portfolio FV</title>
 </head>
 <body>
-    <div class="my-container">
+    <div class="">
         <!----------------------------------------------------->
         <!--NAVBAR--------------------------------------------->
         <!----------------------------------------------------->
         <div class="row">
             <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark navbar-top">
-                        <a class="navbar-brand" href="#"><img class="img-fluid" id="img-logo" src="img/Logo FV.png" alt="Franco Villarreal Logo" width="60"></a>
+                <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed">
+                        <a class="navbar-brand" href="#"><img class="img-fluid" id="img-logo" src="img/fv-logo.png" alt="franco-villarreal-logo" width="60"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarText">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#tools">Herramientas</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#contact-box">Contacto</a></li>
                             </ul>
-                            <span class="navbar-text">
-                            </span>
+                            <span class="navbar-text"></span>
                         </div>
                   </nav> 
             </div>
         </div>           
         <!----------------------------------------------------->
-        <!--FIRST---------------------------------------------->
+        <!--INTRO---------------------------------------------->
         <!----------------------------------------------------->
-        <div id="first" class="row">
-            <section id="first-text"class="col-12 d-flex align-items-left">
-                <div class="contenedor col-12">
-                    <h1 id="first_h1">{ franco villarreal }<span>&#160;</span></h1>
-                    
-                </div>
-            </section>
-        </div>
+        <section id="introduction" class="row section-block">
+            <div class="col-12">
+                <h1 id="title">{ franco villarreal }<span>&#160;</span></h1>
+            </div>
+        </section>
         <!----------------------------------------------------->
         <!--ABOUT---------------------------------------------->
         <!----------------------------------------------------->
-        <div id="about" class="row alert alert-secondary section-block">
-            <section class="col-12 text-center">
+        <section id="about" class="row alert section-block text-center">
+            
+            <div class="col-12">
                 <h2>Acerca de</h2>
                 <p>¡Bienvenido/a a mi sitio web! Me llamo Franco y me encuentro dando mis primeros pasos en el mundo del desarrollo de software. Creé este espacio con el fin de poder compartir mi perfil y los proyectos en los que estuve trabajando por cuenta propia. </p>
                 <p>Actualmente, estoy focalizándome en <strong>JavaScript</strong> y las tecnologías que lo rodean, especialmente <strong>NodeJS</strong> y <strong>VueJS</strong>. Utilizo <strong>GitHub</strong> para el versionado de código, y tengo experiencia con bases de datos <strong>SQL Server</strong>, <strong>MySQL</strong>, y <strong>MongoDB</strong>. En mi página web de GitHub es posible ver algunos de mis proyectos en los que hice uso de JavaScript, NodeJS, VueJS y MySQL.</p>
                 <p>Te invito a recorrer mi perfil y probar alguno de mis proyectos.</p>
                 <p>¡Muchas gracias!</p>
-                
-            </section>
-        </div>
+            </div>
+            
+        </section>
+        <!----------------------------------------------------->
+        <!--ABOUT---------------------------------------------->
+        <!----------------------------------------------------->
+        <section id="tools" class="row alert section-block text-center">
+            
+            <div class="col-12">
+                <h2>Herramientas</h2>
+                <div class="row">
+                    
+                    <img src="/img/js-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/node-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/java-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/mysql-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/mssql-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/mongodb-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    
+                </div>
+                <br>
+                <div class="row">
+                    
+                    <img src="/img/kotlin-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/vscode-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/html-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/css-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/bootstrap-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+                    <img src="/img/github-logo.png" class="col-6 col-md-3 col-lg-2 img-fluid" alt="Responsive image">
+
+                </div>
+            </div>
+
+        </section>
         <!----------------------------------------------------->
         <!--PROJECTS------------------------------------------->
         <!----------------------------------------------------->
+        
         <section id="projects" class="row alert alert-dark projects section-block">
                 <div class="col-12 text-center">
                     <h2>Proyectos</h2>
                     <p>En esta sección listaré algunos proyectos propios en los que estuve trabajando.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 text-justify">
-                    <div class="card">
-                        <img class="card-img-top" src="img/proyecto0.png" alt="Imagen del proyecto 0">
-                        
+
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="card text-white bg-dark mb-3 d-inline-block">
+                        <div class="card-header">Gestor de finanzas personales</div>
                         <div class="card-body">
-                        <h4 class="card-title">#1</h4>
-                        <p>Gestor de finanzas personales</p>
-
-                            <div class="collapse-content">
-
-                                <p class="card-text collapse" id="collapseContent0">
-                                    Creé esta aplicación para decirle adiós a mis planillas de Excel y gestionar mis finanzas personales de forma más práctica. Es posible agregar distintos tipos de movimientos, visualizarlos, filtrarlos y ordenarlos. A través de un sistema de cómputo de datos, es posible llevar el control del flujo del dinero a cada momento, además de poder proyectar para los meses subsiguientes. Por otra parte, utilicé una API para obtener la cotización de algunos valores y verlos en pantalla en todo momento. La aplicación posee el backend desarrollado en NodeJS y el frontend en VueJS. Para la persistencia de datos opté inicialmente por MySQL pero luego migré a archivos .JSON. De esta manera, cualquier persona podría instalar la app, ejecutarla y utilizarla en su computadora sin necesidad de configurar una base de datos. Si bien la app no está terminada, ya es utilizable. Podrá encontrar el repositorio del backend <a href="https://github.com/franconicolasvillarreal/bff-fp-app">aquí</a> y del frontend <a href="https://github.com/franconicolasvillarreal/pf-app">aquí</a>.
-                                </p>
-
-                                <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent0" aria-expanded="false" aria-controls="collapseContent0">Ver más...</a>
-
-                            </div>
-
+                          <h4 class="card-title">Gestor de finanzas personales</h4>
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://youtu.be/ikVjIjaX9Qg" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ikVjIjaX9Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <br>
+                          <p class="card-text">Creé esta aplicación para decirle adiós a mis planillas de Excel y gestionar mis finanzas personales de forma más práctica. Es posible agregar distintos tipos de movimientos, visualizarlos, filtrarlos y ordenarlos. A través de un sistema de cómputo de datos, es posible llevar el control del flujo del dinero a cada momento, además de poder proyectar para los meses subsiguientes. Por otra parte, utilicé una API para obtener la cotización de algunos valores y verlos en pantalla en todo momento. La aplicación posee el backend desarrollado en NodeJS y el frontend en VueJS. Para la persistencia de datos opté inicialmente por MySQL pero luego migré a archivos .JSON. De esta manera, cualquier persona podría instalar la app, ejecutarla y utilizarla en su computadora sin necesidad de configurar una base de datos. Si bien la app no está terminada, ya es utilizable. Podrá encontrar el repositorio del backend <a href="https://github.com/franconicolasvillarreal/bff-fp-app">aquí</a> y del frontend <a href="https://github.com/franconicolasvillarreal/pf-app">aquí</a>.</p>
+                          
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 text-justify">
-                    <div class="card">
-                        <img class="card-img-top" src="img/proyecto1.png" alt="Imagen del proyecto 2">
-                        <div class="card-body">
-                        <h4 class="card-title">#2</h4>
-                        <p>Aplicación web para músicos</p>
-                            <div class="collapse-content">
-                                <p class="card-text collapse" id="collapseContent1">
-                                    Creé esta aplicación para decirle adiós a mis planillas de Excel y gestionar mis finanzas personales de forma más práctica. Es posible agregar distintos tipos de movimientos, visualizarlos, filtrarlos y ordenarlos. A través de un sistema de cómputo de datos, es posible llevar el control del flujo del dinero a cada momento, además de poder proyectar para los meses subsiguientes. Por otra parte, utilicé una API para obtener la cotización de algunos valores y verlos en pantalla en todo momento. La aplicación posee el backend desarrollado en NodeJS y el frontend en VueJS. Para la persistencia de datos opté inicialmente por MySQL pero luego migré a archivos .JSON. De esta manera, cualquier persona podría instalar la app, ejecutarla y utilizarla en su computadora sin necesidad de configurar una base de datos. Si bien la app no está terminada, ya es utilizable. Podrá encontrar el repositorio <a href="">aquí</a>.
-                                </p>
-                                <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent1">Ver más...</a>
-                            </div>
 
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="card text-white bg-dark mb-3 d-inline-block">
+                        <div class="card-header">Videojuego de gestión de recursos</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Videojuego de gestión de recursos</h4>
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/YzDi1wlgCL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <br>
+                          <p class="card-text">En este caso, quise crear un videojuego web de gestión de recursos. En él, el jugador deberá administrar su dinero para cumplir los pagos que periódicamente se le irán ejecutando, cada vez con más intereses. Para ello, deberá hacer buen uso de los recursos del terreno de juego (generado de forma aleatoria en cada partida) para generar activos que le permitan cumplir con los pagos ya mencionados. Podrá crear aserraderos, granjas, minas, puertos, tiendas y fábricas. Cada construcción tendrá sus costos y sus beneficios.
+                            El juego se encuentra en desarrollo. Tengo que terminar algunos puntos, y mejorar otros. De todos modos, ya es jugable y permite entretenerse buen rato. Todo el proyecto es de mi autoría, incluído los gráficos. Como el resto, podrán encontrar el <a href="https://github.com/franconicolasvillarreal/project2">repositorio</a> del proyecto en GitHub para lo que deseen. Click <a href="https://franconicolasvillarreal.github.io/project2/" target="_blank">aquí</a> si deseas probar el juego.</p>
+                            
                         </div>
                     </div>
                 </div>
-                    <div class="col-12 col-md-6 col-lg-6 text-justify">
-                        <div class="card">
-                            <img class="card-img-top" src="img/proyecto2.png" alt="Imagen del proyecto 2">
-                            
-                            <div class="card-body">
-                            <h4 class="card-title">#3</h4>
-                            <p>Videojuego de gestión de recursos</p>
+                
 
-                                <div class="collapse-content">
-
-                                    <p class="card-text collapse" id="collapseContent2">
-                                        En este caso, quise crear un videojuego web de gestión de recursos. En él, el jugador deberá administrar su dinero para cumplir los pagos que periódicamente se le irán ejecutando, cada vez con más intereses. Para ello, deberá hacer buen uso de los recursos del terreno de juego (generado de forma aleatoria en cada partida) para generar activos que le permitan cumplir con los pagos ya mencionados. Podrá crear aserraderos, granjas, minas, puertos, tiendas y fábricas. Cada construcción tendrá sus costos y sus beneficios.
-                                        El juego se encuentra en desarrollo. Tengo que terminar algunos puntos, y mejorar otros. De todos modos, ya es jugable y permite entretenerse buen rato. Todo el proyecto es de mi autoría, incluído los gráficos. Como el resto, podrán encontrar el <a href="https://github.com/franconicolasvillarreal/project2">repositorio</a> del proyecto en GitHub para lo que deseen. Click <a href="https://franconicolasvillarreal.github.io/project2/" target="_blank">aquí</a> si deseas probar el juego.
-                                    </p>
-
-                                    <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent2">Ver más...</a>
-
-                                </div>
-
-                            </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="card text-white bg-dark mb-3 d-inline-block">
+                        <div class="card-header">Web App para músicos</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Web App para músicos</h4>
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/q3deHlkXBqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <br>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 text-justify">
-                        <div class="card">
-                            <img class="card-img-top" src="img/proyecto3.png" alt="Imagen del proyecto 3">
-                            
-                            <div class="card-body">
-                            <h4 class="card-title">#4</h4>
-                            <p>Remake de Sudoku</p>
+                </div>
 
-                                <div class="collapse-content">
+                
 
-                                    <p class="card-text collapse" id="collapseContent3">
-                                        En esta ocasión, me surgió la idea de recrear el típico juego Sudoku, con el fin de probar ElectronJs y realizar una migración del juego web a una versión de escritorio. Es posible probarlo clickeando <a href="https://franconicolasvillarreal.github.io/sudoku/. " target="_blank">aquí</a>, descargar el instalable para Windows desde <a href="https://drive.google.com/file/d/11z7oHnBmvWxK6ETc_99hQWeRD843LO5z/view?usp=sharing" target="_blank">aquí</a>, o acceder al <a href="https://github.com/franconicolasvillarreal/sudoku">repositorio</a> del proyecto.
-                                    </p>
-
-                                    <a class="btn btn-link red-text p-1 my-1 mr-0 mml-1 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent3">Ver más...</a>
-
-                                </div>
-
-                            </div>
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="card text-white bg-dark mb-3 d-inline-block">
+                        <div class="card-header">Proyecto 4</div>
+                        <div class="card-body">
+                          <h4 class="card-title">Sudoku</h4>
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/elYS7liRkZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <br>
+                          <p class="card-text">En esta ocasión, me surgió la idea de recrear el típico juego Sudoku, con el fin de probar ElectronJs y realizar una migración del juego web a una versión de escritorio. Es posible probarlo clickeando <a href="https://franconicolasvillarreal.github.io/sudoku/. " target="_blank">aquí</a>, descargar el instalable para Windows desde <a href="https://drive.google.com/file/d/11z7oHnBmvWxK6ETc_99hQWeRD843LO5z/view?usp=sharing" target="_blank">aquí</a>, o acceder al <a href="https://github.com/franconicolasvillarreal/sudoku">repositorio</a> del proyecto.</p>
+                          
                         </div>
                     </div>
+                </div>
                 </section>
-        <div class="row">
-            <div class="col-12">
-                <nav class="navbar navbar-dark text-white justify-content-center my-footer">
-                    
-                    <ul class="contact-list d-flex justify-content-center" id="first-contact">
-                        <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="col-12 btn btn-dark"><i class="fab fa-github"></i> GitHub</a></li>
-                        <li><a href=mailto:franconicolasvillarreal@gmail.com class="col-12 btn btn-danger"><i class="fas fa-envelope"></i> Gmail</a></li>
-                        <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="col-12 btn btn-primary"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+
+        <!----------------------------------------------------->
+        <!--CONTACT------------------------------------------->
+        <!----------------------------------------------------->
+        <footer  id="contact-box">
+            <div class="row">
+                <div class="col-12">
+
+                    <h2 class="">Contacto</h2>
+
+                    <ul class="">
+                        <li><a href="https://github.com/franconicolasvillarreal" target="_blank" class="btn btn-github"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href=mailto:franconicolasvillarreal@gmail.com class="btn btn-gmail"><i class="fas fa-envelope"></i> Gmail</a></li>
+                        <li><a href="https://www.linkedin.com/in/franco-nicol%C3%A1s-villarreal-36011615b/" target="_blank" class="btn btn-linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
                     </ul>
 
-                </nav>
-            </div>  
-        </div>
+                </div>  
+            </div>
+        </footer>
+        
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
