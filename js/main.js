@@ -15,6 +15,6 @@ const animateElement = ( element, speed ) => {
 
 $( document ).ready(function() {
     const speed = 200;
-    const elementToAnimate = $('#first_h1');
+    const elementToAnimate = $('#title');
     animateElement( elementToAnimate, speed);
 });

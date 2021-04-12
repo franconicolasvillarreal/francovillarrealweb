@@ -6,14 +6,16 @@
 }
 body {
     background: black;
+    width: 99%;
 }
 .section-block {
-    background-color: white;
-    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 120px;
     padding-bottom: 1%;
     padding-left: 10%;
     padding-right: 10%;
-    border-color: #ffffff;
+    border: none;
+    min-height: 700px;
 }
 .row {
     margin-bottom: 0px;
@@ -21,34 +23,27 @@ body {
 .alert {
     border-radius: 0px;
 }
-.contenedor {
-	margin: auto;
-    display: table;
-}
 /* ============================================================================= */
 /* HEADERS */
 /* ============================================================================= */
+h2, h3, h4, h5 {
+    color: #0573a7;
+    margin-bottom: 50px;
+}
 h1 {
     text-align: center;
     color: #ffffff;
     font-size: 4rem;
     font-family: 'Roboto Mono'; 
     margin-left: 20px;
-    margin-bottom: 50px;
 }
-h2 {
-    color: #0573a7;
-    margin-bottom: 20px;
+h2 { 
     font-size: 1.75rem;
 }
 h3 {
-    color: #0573a7;
-    margin-bottom: 20px;
     font-size: 1.25rem;
 }
 h4 {
-    color: #0573a7;
-    margin-bottom: 20px;
     font-size: 1rem;
 }
 /* ============================================================================= */
@@ -56,69 +51,70 @@ h4 {
 /* ============================================================================= */
 nav {
     min-height: 100px;
-    box-shadow: 10px #ffffff;
+    box-shadow: 10px #ffffff; 
 }
 .navbar {
     padding-left: 30px;
     background-color: black;
-    
 }
-.navbar a{
+.navbar a {
     transition: 200ms ease-in;
     color: white;
 }
 .navbar a:hover {
     margin-top: -7px;
     font-size: 18px;
-    border-bottom: 5px solid #ccc;
+    /* border-bottom: 5px solid #ccc; */
 }
-.my-container {
-    background: #ffffff;
-    width: 99%;
-}
-.my-container .row .col-12{
-    padding: 0px;
+.navbar-fixed {
+    position: fixed;
+    width: 101%;
+    z-index: 1000;
 }
 /* ============================================================================= */
 /* INTRO */
 /* ============================================================================= */
-#first {
-    height: 600px;
-}
-#first section {
+#introduction {
+    margin-top: 100px;
     background: url("../img/bg3.jpg");
     background-repeat: no-repeat;
-    background-size: 1900px;
+    background-size: 1920px;
 }
-#first-text h2 {
-    margin-left: 20px;
-    font-family: 'Roboto Mono';
+#title {
+    margin-top: 100px;
 }
-#first-contact {
+.card {
+    min-height: 800px;
+}
+/* ============================================================================= */
+/* CONTACT */
+/* ============================================================================= */
+#contact-box {
     margin: 0px;
-    padding: 0px; 
+    padding: 20px; 
+    text-align: center;
 }
-#first-contact li{
+#contact-box ul {
+    padding: 0px;
+}
+#contact-box  li{
     margin: 0px;
     padding: 0px;
     margin-right: 10px;
     vertical-align: middle;
     list-style: none;
+    display: inline-block;
+    width: 100px;
 }
-#first-contact li a {
+#contact-box  li a {
     padding: 5px;
+    color: white;
 }
-/* ============================================================================= */
-/* PROJECTS */
-/* ============================================================================= */
-.projects img {
-    height: 250px;
+#contact-box  li a:hover {
+    font-size: 1.1rem;
 }
-.card {
-    margin: 5px;
-}
-.my-footer {
-    background-color: black;
+.btn-linkedin a:hover {
+    color: rgb(32, 107, 204);
 }
 /* ============================================================================= */
 /* RESPONSIVE */
@@ -135,6 +131,9 @@ nav {
 }
 @media only screen and (max-width: 453px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+    }
+    #first {
+        margin-top: 100px;
     }
 }
